@@ -1,0 +1,16 @@
+Nom du Système : Application de Classification
+Cas d'utilisation : Ajouter des données (ajouter un point dont on ne connait pas la classification)
+Acteur principal : Utilisatrice
+Déclencheur : -------
+Acteurs secondaires : Système
+Précondition : Avoir chargé des données csv.
+Garantie en cas de succès : Le point est ajouté et s'affiche sur le nuage de Points 
+Garantie minimales : Le point n'est pas enregistré
+Scénario nominal :
+    	1. L'Utilisatrice sélectionne le bouton "Ajouter un Point". (Ecran A1)
+    	2. Le Système propose un formulaire avec en titre le fichier csv actuellement sélectionné et des données à saisir celles des attributs du fichier (Ecran A2)
+    	3. L'Utilisatrice remplit le formulaire affiché et valide. (Ecran A3)
+		4. Le Système vérifie que les données sont au bon format puis affiche un message de succès de l'opération et affiche le point ajouté dans le nuage de points. (Ecran A4)
+
+Scénario secondaire :
+	Aucun

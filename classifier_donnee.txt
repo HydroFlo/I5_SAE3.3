@@ -1,0 +1,18 @@
+Nom du Système : Application de classification (ClassiFlex)
+Cas d'utilisation : Classifier les données
+Acteur principal : L'utilisatrice
+Déclencheur : --------
+Acteurs secondaires : Système
+Précondition : l'utilisatrice à ajouté des données
+Garantie en cas de succès : Le point est classifié
+Garanties minimales : Rien ne change
+
+Scénario nominal :
+	1. L'utilisatrice sélectionne le bouton "Classifier". (Ecran B1)
+	2. Le système affiche un formulaire.(Ecran B2)
+	3. L'utilisatrice saisit la valeur de K et le protocole qu'elle veut pour séléctionner les plus proches voisins.(Ecran B3)
+	4. Le système attribue une classe en fonction du protocole choisi.
+	Puis renvoie une fenêtre affichant les points qui n'étaient pas classifiés ainsi que la classe la plus probable. (Ecran B4)
+
+Scénario(s) Alternatif(s) :
+	Aucun

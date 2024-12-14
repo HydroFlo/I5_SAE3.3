@@ -1,0 +1,17 @@
+Nom du Système : Application de classification
+Cas d'utilisation : Charger les données depuis un fichier csv
+Acteur principal : L'utilisatrice
+Déclencheur : -------
+Acteurs secondaires : Système
+Précondition : Il y a au moins un fichier csv disponible et valide
+Garantie en cas de succès : Les données du/des fichier(s) csv sont chargés dans l'application
+Garantie minimales : Rien ne change
+Scénario nominal :
+    	1. L'utilisatrice sélectionne le bouton "import data" pour charger les données.
+    	2. Le système parcours les fichiers puis affiche les fichiers a partir de l'emplacement de l'application.
+    	3. L'utilisatrice sélectionne le jeu de données qu'elle souhaite ajouter à l'application.
+		4. Le système charge les données.
+			Ensuite il affiche un message de succès et un autre nommant les fichiers qui ont pu etre chargés en vert et les autres en rouge.
+
+Scénario secondaire :
+	Aucun
